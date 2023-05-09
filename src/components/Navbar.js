@@ -7,7 +7,7 @@ const Navbar = (props) => {
   return (
     <div className='navbar'>
       <h2 onClick={() => props.handleClick(false)}>
-        <span className='title'>ALBUMS LIST</span>
+        <span className='brand-first-half'>ALBUMS LIST</span>
       </h2>
       <Link to={props.path}><button>{props.page}</button></Link>
     </div>
